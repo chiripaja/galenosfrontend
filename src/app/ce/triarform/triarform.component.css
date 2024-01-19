@@ -1,0 +1,28 @@
+.prueba{
+   width: 1200px;
+    border: 1px solid red;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around ;
+}
+
+.container > * {
+    margin-right: 3px;
+  }
+  
+  .container > :last-child {
+    margin-right: 0; /* Evita el margen derecho en el último elemento */
+  }
+
+.t-md{
+    width: 100%;
+}
+.ajustar{
+    width: 100%;
+}
+
+mat-hint{
+  color:color(srgb red green blue);
+}
